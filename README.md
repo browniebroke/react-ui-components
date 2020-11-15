@@ -1,17 +1,17 @@
-# gatsby-image-gallery
+# react-ui-components
 
 <p align="center">
-  <a href="https://github.com/browniebroke/gatsby-image-gallery/actions?query=workflow%3ACI">
-    <img alt="CI status" src="https://img.shields.io/github/workflow/status/browniebroke/gatsby-image-gallery/CI/main?label=CI&logo=github&logoColor=white&style=flat-square">
+  <a href="https://github.com/browniebroke/react-ui-components/actions?query=workflow%3ACI">
+    <img alt="CI status" src="https://img.shields.io/github/workflow/status/browniebroke/react-ui-components/CI/main?label=CI&logo=github&logoColor=white&style=flat-square">
   </a>
-  <a href="https://www.npmjs.com/package/@browniebroke/gatsby-image-gallery">
-    <img src="https://img.shields.io/npm/v/@browniebroke/gatsby-image-gallery.svg?logo=npm&logoColor=white&style=flat-square" alt="Current npm package version." />
+  <a href="https://www.npmjs.com/package/@browniebroke/react-ui-components">
+    <img src="https://img.shields.io/npm/v/@browniebroke/react-ui-components.svg?logo=npm&logoColor=white&style=flat-square" alt="Current npm package version." />
   </a>
-  <a href="https://github.com/browniebroke/gatsby-image-gallery/blob/master/LICENSE">
+  <a href="https://github.com/browniebroke/react-ui-components/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Released under the MIT license." />
   </a>
-  <a href="https://lgtm.com/projects/g/browniebroke/gatsby-image-gallery/alerts/">
-    <img src="https://img.shields.io/lgtm/alerts/github/browniebroke/gatsby-image-gallery?logo=lgtm&logoColor=white&style=flat-square" alt="Total alerts">
+  <a href="https://lgtm.com/projects/g/browniebroke/react-ui-components/alerts/">
+    <img src="https://img.shields.io/lgtm/alerts/github/browniebroke/react-ui-components?logo=lgtm&logoColor=white&style=flat-square" alt="Total alerts">
   </a>
 </p>
 
@@ -20,7 +20,7 @@ Very basic gallery grid based on `gatsby-image` and `react-image-lightbox`, styl
 ## Install
 
 ```bash
-npm install --save @browniebroke/gatsby-image-gallery
+npm install --save @browniebroke/react-ui-components
 ```
 
 ## Usage
@@ -31,8 +31,8 @@ This component is built on top `react-image-lightbox`, the CSS that ships with `
 import { graphql } from 'gatsby'
 import React from 'react'
 
-import Gallery from '@browniebroke/gatsby-image-gallery'
-import '@browniebroke/gatsby-image-gallery/dist/style.css'
+import Gallery from '@browniebroke/react-ui-components'
+import '@browniebroke/react-ui-components/dist/style.css'
 
 const MyPage = ({ data }) => {
   const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
@@ -80,7 +80,7 @@ You can see the full list of options in [their documentation](https://github.com
 
 ### Example
 
-For a full working example, there is one in [the example folder](https://github.com/browniebroke/gatsby-image-gallery/tree/master/example) which is [deployed to Netlify](https://gatsby-image-gallery.netlify.app/).
+For a full working example, there is one in [the example folder](https://github.com/browniebroke/react-ui-components/tree/master/example) which is [deployed to Netlify](https://react-ui-components.netlify.app/).
 
 ## Development
 
