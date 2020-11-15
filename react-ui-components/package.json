@@ -4,7 +4,6 @@
   "description": "Very basic gallery grid based on gatsby-image.",
   "author": "browniebroke",
   "license": "MIT",
-  "readme": "../README.md",
   "repository": "browniebroke/react-ui-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
