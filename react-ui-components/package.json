@@ -1,10 +1,10 @@
 {
-  "name": "@browniebroke/gatsby-image-gallery",
+  "name": "@browniebroke/react-ui-components",
   "version": "0.0.0",
   "description": "Very basic gallery grid based on gatsby-image.",
   "author": "browniebroke",
   "license": "MIT",
-  "repository": "browniebroke/gatsby-image-gallery",
+  "repository": "browniebroke/react-ui-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -20,17 +20,15 @@
     "prepare": "yarn run build"
   },
   "peerDependencies": {
-    "gatsby-image": ">= 2.0",
     "prop-types": "^15.5.4",
     "react": "^16.8 || ^17.0.0",
     "react-dom": "^16.8 || ^17.0.0",
     "styled-components": ">= 5.0"
   },
   "dependencies": {
-    "react-image-lightbox": "^5.1.1",
     "styled-components": "^5.0.0"
   },
-  "homepage": "https://github.com/browniebroke/gatsby-image-gallery#readme",
+  "homepage": "https://github.com/browniebroke/react-ui-components#readme",
   "devDependencies": {
     "@babel/core": "7.12.3",
     "@babel/helper-call-delegate": "7.12.1",
@@ -52,7 +50,6 @@
     "@babel/preset-react": "7.12.5",
     "@svgr/rollup": "5.5.0",
     "cross-env": "7.0.2",
-    "gatsby-image": "2.5.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-scripts": "3.4.4",

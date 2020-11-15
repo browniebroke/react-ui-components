@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalLink component should render correctly 1`] = `
+<a
+  aria-label="Home page"
+  href="/"
+  rel="noopener noreferrer"
+  target="_blank"
+  title="Home page"
+/>
+`;

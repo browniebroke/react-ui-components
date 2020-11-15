@@ -1,10 +1,11 @@
 {
   "private": true,
   "workspaces": [
-    "gatsby-image-gallery",
+    "react-ui-components",
     "example"
   ],
   "devDependencies": {
+    "babel-eslint": "10.1.0",
     "eslint": "7.13.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-import": "2.22.1",
@@ -20,6 +21,6 @@
     "format": "prettier --write \"**/*.+(js|json|md)\"",
     "lint:eslint": "eslint --ext .js .",
     "lint:prettier": "prettier --check \"**/*.+(js|json|md)\"",
-    "test": "yarn workspace @browniebroke/gatsby-image-gallery test"
+    "test": "yarn workspace @browniebroke/react-ui-components test"
   }
 }
