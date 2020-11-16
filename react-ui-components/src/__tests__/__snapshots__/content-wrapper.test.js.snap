@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentWrapper component should render correctly without props 1`] = `
+<div
+  className="sc-bdfBwQ jBenQD"
+/>
+`;
