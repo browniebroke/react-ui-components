@@ -1,4 +1,3 @@
-// external-link.test.js
 import React from 'react'
 import renderer from 'react-test-renderer'
 import ExternalLink from '../external-link'
