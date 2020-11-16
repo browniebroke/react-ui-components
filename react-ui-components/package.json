@@ -26,10 +26,12 @@
     "prop-types": "^15.5.4",
     "react": "^16.8 || ^17.0.0",
     "react-dom": "^16.8 || ^17.0.0",
-    "styled-components": ">= 5.0"
+    "styled-components": ">= 5.0",
+    "typography": ">=0.16"
   },
   "dependencies": {
-    "styled-components": "^5.0.0"
+    "styled-components": "^5.0.0",
+    "gray-percentage": "^2.0.0"
   },
   "homepage": "https://github.com/browniebroke/react-ui-components#readme",
   "devDependencies": {
@@ -63,7 +65,8 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-postcss": "3.1.8",
-    "rollup-plugin-url": "3.0.1"
+    "rollup-plugin-url": "3.0.1",
+    "typography": "0.16.19"
   },
   "files": [
     "dist"
