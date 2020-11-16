@@ -1,7 +1,7 @@
 import Typography from 'typography'
 import gray from 'gray-percentage'
 
-export const themeObject = {
+export const typographyTheme = {
   title: 'Bootstrap',
   baseFontSize: '16px',
   baseLineHeight: 1.5,
@@ -41,7 +41,6 @@ export const themeObject = {
   }),
 }
 
-const typography = new Typography(themeObject)
+const typography = new Typography(typographyTheme)
 
-export const { scale, rhythm, options } = typography
 export default typography
