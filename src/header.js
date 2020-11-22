@@ -14,9 +14,18 @@ const HeaderContainer = styled(Container)`
   align-items: center;
   padding: ${(props) => props.theme.spacings[1]} 0;
 
-  > a {
-    display: flex;
-    align-items: center;
+  color: ${(props) => props.theme.colors.secondary};
+
+  a,
+  a:visited {
+    color: ${(props) => props.theme.colors.secondary};
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: ${(props) => props.theme.colors.secondaryDark};
+    text-decoration: none;
   }
 `
 

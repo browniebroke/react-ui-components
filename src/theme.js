@@ -1,14 +1,20 @@
-import { rhythm } from './typography'
+import typography from './typography'
 
 const theme = {
   colors: {
     primary: '#0d6efd',
     primaryDark: '#0b4fb1',
-    secondary: '#6c757d',
-    secondaryDark: '#495057',
+    secondary: '#e7e7e7',
+    secondaryDark: '#c3c3c3',
   },
   gutterWidth: '15px',
-  spacings: [rhythm(1 / 6), rhythm(1 / 3), rhythm(2 / 3), rhythm(1), rhythm(2)],
+  spacings: [
+    typography.rhythm(1 / 6),
+    typography.rhythm(1 / 3),
+    typography.rhythm(2 / 3),
+    typography.rhythm(1),
+    typography.rhythm(2),
+  ],
   gridBreakpoints: {
     xs: '0',
     sm: '576px',
