@@ -15,7 +15,7 @@
   </a>
 </p>
 
-A collection of reusable React components. .
+A collection of reusable React components.
 
 ## Install
 
