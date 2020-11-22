@@ -1,4 +1,0 @@
-[build]
-  publish = "example/public"
-  command = "yarn workspace example build"
-  environment = { GATSBY_CPU_COUNT = "1" }
