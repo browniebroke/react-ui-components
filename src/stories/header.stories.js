@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components'
 
 import { defaultTheme, redTheme } from './themes'
 import Header from '../header'
+import Navigation from '../navigation'
 
 export default {
   title: 'Example/Header',
@@ -12,11 +13,11 @@ export default {
 const Template = (args) => (
   <ThemeProvider theme={args.theme}>
     <Header>
-      <h2>The title</h2>
-      <div>
+      <h2>Site title</h2>
+      <Navigation direction="row">
         <a href="#">Link one</a>
         <a href="#">Link two</a>
-      </div>
+      </Navigation>
     </Header>
   </ThemeProvider>
 )
