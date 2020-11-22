@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
 
 jobs:
@@ -56,17 +56,17 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' }}
     needs:
-    - lint
-    - test
+      - lint
+      - test
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2.1.2
-    - run: yarn
-    - run: cp README.md react-ui-components/
-    - name: Run Sematic release
-      working-directory: ./react-ui-components
-      run: npx semantic-release
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.1.2
+      - run: yarn
+      - run: cp README.md react-ui-components/
+      - name: Run Sematic release
+        working-directory: ./react-ui-components
+        run: npx semantic-release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
