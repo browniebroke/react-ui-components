@@ -6,7 +6,7 @@ exports[`Header component should render correctly with children 1`] = `
     className="sc-gsTCUz eqTofI"
   >
     <div
-      className="sc-bdfBwQ sc-dlfnbm eeiJX gzMiVM"
+      className="sc-bdfBwQ sc-dlfnbm eeiJX jSmKiF"
     >
       <div>
         This
@@ -28,7 +28,7 @@ exports[`Header component should render correctly without children 1`] = `
     className="sc-gsTCUz eqTofI"
   >
     <div
-      className="sc-bdfBwQ sc-dlfnbm eeiJX gzMiVM"
+      className="sc-bdfBwQ sc-dlfnbm eeiJX jSmKiF"
     />
   </nav>
 </header>
