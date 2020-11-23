@@ -3,9 +3,7 @@ import typography from './typography'
 const styledComponentsTheme = {
   colors: {
     primary: '#0d6efd',
-    primaryDark: '#0b4fb1',
     secondary: '#6c757d',
-    secondaryDark: '#495057',
   },
   gutterWidth: '15px',
   spacings: [

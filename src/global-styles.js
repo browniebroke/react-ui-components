@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { getPrimaryColor, getSecondaryColorDark } from './colors'
 
 const GlobalStyles = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
@@ -20,12 +21,12 @@ time, mark, audio, video {
 
 
 a {
-  color: ${(props) => props.theme.colors.primary};
+  color: ${getPrimaryColor};
   text-decoration: none;
   background-color: transparent;
 
   :hover {
-    color: ${(props) => props.theme.colors.primaryDark};
+    color: ${getSecondaryColorDark};
     text-decoration: underline;
   }
 }

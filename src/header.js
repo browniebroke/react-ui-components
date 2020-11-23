@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import Container from './container'
+import {
+  getPrimaryColor,
+  getSecondaryColor,
+  getSecondaryColorDark,
+} from './colors'
 
 const SiteNavBar = styled.nav`
-  background-color: ${(props) => props.theme.colors.primary};
+  background-color: ${getPrimaryColor};
   padding: ${(props) => props.theme.spacings[1]}
     ${(props) => props.theme.spacings[2]};
 `
@@ -14,17 +19,17 @@ const HeaderContainer = styled(Container)`
   align-items: center;
   padding: ${(props) => props.theme.spacings[1]} 0;
 
-  color: ${(props) => props.theme.colors.secondary};
+  color: ${getSecondaryColor};
 
   a,
   a:visited {
-    color: ${(props) => props.theme.colors.secondary};
+    color: ${getSecondaryColor};
     text-decoration: none;
   }
 
   a:hover,
   a:focus {
-    color: ${(props) => props.theme.colors.secondaryDark};
+    color: ${getSecondaryColorDark};
     text-decoration: none;
   }
 `
