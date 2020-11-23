@@ -16,4 +16,15 @@ describe('ContentWrapper component', () => {
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
+
+  test('should render correctly with props', () => {
+    let tree = renderer
+      .create(
+        <ThemeProvider theme={styledComponentsTheme}>
+          <ContentWrapper headerHeight="50px" footerHeight="200px" />
+        </ThemeProvider>
+      )
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
