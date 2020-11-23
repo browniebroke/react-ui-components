@@ -1,13 +1,11 @@
-import theme from '../theme'
+import styledComponentsTheme from '../styled-components-theme'
 
-export const defaultTheme = { ...theme }
+export const defaultTheme = { ...styledComponentsTheme }
 
 export const redTheme = {
-  ...theme,
+  ...styledComponentsTheme,
   colors: {
     primary: '#b51b32',
-    primaryDark: '#861426',
     secondary: '#e7e7e7',
-    secondaryDark: '#c3c3c3',
   },
 }
