@@ -1,3 +1,4 @@
+export Alert from './alert'
 export Container from './container'
 export ContentWrapper from './content-wrapper'
 export ExternalLink from './external-link'

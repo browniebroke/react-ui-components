@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component should render correctly with  1`] = `
+<div
+  className="sc-bdfBwQ ieyMSl"
+>
+  
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with center 1`] = `
+<div
+  className="sc-bdfBwQ ieyMSl"
+>
+  center
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with danger 1`] = `
+<div
+  className="sc-bdfBwQ dXuoEv"
+>
+  This is a 
+  danger
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with info 1`] = `
+<div
+  className="sc-bdfBwQ ieyMSl"
+>
+  This is a 
+  info
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with left 1`] = `
+<div
+  className="sc-bdfBwQ fHBJUd"
+>
+  left
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with null 1`] = `
+<div
+  className="sc-bdfBwQ ieyMSl"
+>
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with right 1`] = `
+<div
+  className="sc-bdfBwQ exbWRu"
+>
+  right
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with success 1`] = `
+<div
+  className="sc-bdfBwQ eZmQyz"
+>
+  This is a 
+  success
+   alert
+</div>
+`;
+
+exports[`Alert component should render correctly with warning 1`] = `
+<div
+  className="sc-bdfBwQ cyqWze"
+>
+  This is a 
+  warning
+   alert
+</div>
+`;
