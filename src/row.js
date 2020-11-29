@@ -1,15 +1,21 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
+import {
+  genMarginFromProps,
+  genPaddingFromProps,
+  genAlignItem,
+  genJustifyContent,
+} from './utils'
 
 const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-right: -${(props) => props.theme.gutterWidth};
   margin-left: -${(props) => props.theme.gutterWidth};
-  ${(props) =>
-    props.alignItems &&
-    css`
-      align-items: ${props.alignItems};
-    `}
+
+  ${genMarginFromProps}
+  ${genPaddingFromProps}
+  ${genJustifyContent}
+  ${genAlignItem}
 `
 
 export default Row

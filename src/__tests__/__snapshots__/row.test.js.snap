@@ -2,12 +2,12 @@
 
 exports[`Row component should render correctly with alignItems prop 1`] = `
 <div
-  className="sc-bdfBwQ grfeNr"
+  className="sc-bdfBwQ kUabHb"
 />
 `;
 
 exports[`Row component should render correctly without props 1`] = `
 <div
-  className="sc-bdfBwQ leWHUj"
+  className="sc-bdfBwQ kUabHb"
 />
 `;
