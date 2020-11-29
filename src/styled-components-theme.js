@@ -8,6 +8,8 @@ const styledComponentsTheme = {
     info: '#17a2b8',
     warning: '#ffc107',
     danger: '#dc3545',
+    navbar: '#0d6efd',
+    navbarText: '#ffffff',
   },
   gutterWidth: '15px',
   spacings: [

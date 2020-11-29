@@ -2,13 +2,27 @@ import React from 'react'
 import styled from 'styled-components'
 import Container from './container'
 import {
-  getPrimaryColor,
-  getSecondaryColor,
-  getSecondaryColorDark,
+  getNavbarColor,
+  getNavbarTextColor,
+  getNavbarTextColorDark,
 } from './colors'
 
 const SiteNavBar = styled.nav`
-  background-color: ${getPrimaryColor};
+  color: ${getNavbarTextColor};
+
+  a,
+  a:visited {
+    color: ${getNavbarTextColor};
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: ${getNavbarTextColorDark};
+    text-decoration: none;
+  }
+
+  background-color: ${getNavbarColor};
   padding: ${(props) => props.theme.spacings[1]}
     ${(props) => props.theme.spacings[2]};
 `
@@ -18,20 +32,6 @@ const HeaderContainer = styled(Container)`
   justify-content: space-between;
   align-items: center;
   padding: ${(props) => props.theme.spacings[1]} 0;
-
-  color: ${getSecondaryColor};
-
-  a,
-  a:visited {
-    color: ${getSecondaryColor};
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus {
-    color: ${getSecondaryColorDark};
-    text-decoration: none;
-  }
 `
 
 const Header = ({ children }) => (

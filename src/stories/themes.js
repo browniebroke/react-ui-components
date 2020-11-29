@@ -5,7 +5,7 @@ export const defaultTheme = { ...styledComponentsTheme }
 export const redTheme = {
   ...styledComponentsTheme,
   colors: {
-    primary: '#b51b32',
-    secondary: '#e7e7e7',
+    navbar: '#b51b32',
+    navbarText: '#ffffff',
   },
 }

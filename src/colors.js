@@ -1,16 +1,24 @@
 import Color from 'color'
 
-export const getPrimaryColor = (props) =>
-  Color(props.theme.colors.primary).hex()
+const getColor = (props, colorName) => {
+  const colorValue = props.theme.colors[colorName]
+  return Color(colorValue).hex()
+}
 
-export const getPrimaryColorDark = (props) =>
-  Color(props.theme.colors.primary).darken(0.2).hex()
+const getColorDark = (props, colorName) => {
+  const colorValue = props.theme.colors[colorName]
+  return Color(colorValue).darken(0.2).hex()
+}
 
-export const getSecondaryColor = (props) =>
-  Color(props.theme.colors.secondary).hex()
-
-export const getSecondaryColorDark = (props) =>
-  Color(props.theme.colors.secondary).darken(0.2).hex()
+export const getPrimaryColor = (props) => getColor(props, 'primary')
+export const getPrimaryColorDark = (props) => getColorDark(props, 'primary')
+export const getSecondaryColor = (props) => getColor(props, 'secondary')
+export const getSecondaryColorDark = (props) => getColorDark(props, 'secondary')
+export const getNavbarColor = (props) => getColor(props, 'navbar')
+export const getNavbarColorDark = (props) => getColorDark(props, 'navbar')
+export const getNavbarTextColor = (props) => getColor(props, 'navbarText')
+export const getNavbarTextColorDark = (props) =>
+  getColorDark(props, 'navbarText')
 
 const mixAlertColor = (colorHex, factor) => {
   const baseColor = factor > 0 ? Color('#000000') : Color('#ffffff')
