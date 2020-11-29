@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { getPrimaryColor, getSecondaryColorDark } from './colors'
+import { getPrimaryColor, getPrimaryColorDark } from './colors'
 
 const GlobalStyles = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
@@ -26,7 +26,7 @@ a {
   background-color: transparent;
 
   :hover {
-    color: ${getSecondaryColorDark};
+    color: ${getPrimaryColorDark};
     text-decoration: underline;
   }
 }
