@@ -1885,7 +1885,7 @@
   dependencies:
     execa "^0.2.2"
 
-"@storybook/addon-actions@6.1.2", "@storybook/addon-actions@^6.1.2":
+"@storybook/addon-actions@6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.2.tgz#6df92f5ac4ed5a5d56c5ff2f52de47cf43e3c42b"
   integrity sha512-LBsHgN9BNekagdw5a4Yi6noHH64K+/6/phpz6GgD9HIhULOtHNrL2pG94Zj10rdCdu1y7nscSkfwA52niqyYYg==
@@ -1986,7 +1986,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-essentials@^6.1.2":
+"@storybook/addon-essentials@6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-6.1.2.tgz#5cc5146bb257937e0602d1a4b9f8d05dffa8531b"
   integrity sha512-wQmDD9+p36K26PMxpMcuZblyXFAjJ0pG6JNxy3XULuPGZfeRPQGlmcU2JTDUVbryOJfxHu0nzDI7D+CJ8Q2wAg==
@@ -2004,7 +2004,7 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-links@^6.1.2":
+"@storybook/addon-links@6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.1.2.tgz#4e0cda342838c79579311f1566bd92847018ecd8"
   integrity sha512-nllLhqc0yQdiZAoPqQ1sxluZh8zMyP2NiH9Y26ph/4dcn6sLyMdxOgfvIWKsWa32+c3c71MsauK6xQ9kS3+fwg==
@@ -2310,7 +2310,7 @@
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/react@^6.1.2":
+"@storybook/react@6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.1.2.tgz#863662543a18c3a2ecea7a5646ec711c29163b05"
   integrity sha512-q7Nj++ucjk9pVt/0jUlhoqzeypbzKdmRyN80hPAsSmvpzONlJtK82VA0iujBh9G6T+cT289nq2pf555tQfiAdQ==
@@ -3900,7 +3900,7 @@ babel-loader@8.1.0:
     pify "^4.0.1"
     schema-utils "^2.6.5"
 
-babel-loader@^8.0.6, babel-loader@^8.2.1:
+babel-loader@8.2.1, babel-loader@^8.0.6:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.1.tgz#e53313254677e86f27536f5071d807e01d24ec00"
   integrity sha512-dMF8sb2KQ8kJl21GUjkW1HWmcsL39GOV5vnzjqrCzEPNY0S0UfMLnumidiwIajDSBmKhYf5iRW+HXaM4cvCKBw==
