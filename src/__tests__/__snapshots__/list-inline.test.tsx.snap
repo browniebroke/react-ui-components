@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListInline component should render correctly with children 1`] = `
+<ul
+  className="sc-iBPRYJ ljKKDo"
+>
+  <li
+    className="sc-fubCfw hUayPB"
+  >
+    <div>
+      This
+    </div>
+  </li>
+  <li
+    className="sc-fubCfw hUayPB"
+  >
+    <div>
+      is
+    </div>
+  </li>
+  <li
+    className="sc-fubCfw hUayPB"
+  >
+    <div>
+      an
+    </div>
+  </li>
+  <li
+    className="sc-fubCfw hUayPB"
+  >
+    <div>
+      example
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`ListInline component should render correctly without children 1`] = `
+<ul
+  className="sc-iBPRYJ ljKKDo"
+/>
+`;
+
+exports[`ListInline component should render with custom padding 1`] = `
+<ul
+  className="sc-iBPRYJ ljKKDo"
+>
+  <li
+    className="sc-fubCfw tKMDB"
+  >
+    <div>
+      This
+    </div>
+  </li>
+  <li
+    className="sc-fubCfw tKMDB"
+  >
+    <div>
+      is
+    </div>
+  </li>
+  <li
+    className="sc-fubCfw tKMDB"
+  >
+    <div>
+      fun
+    </div>
+  </li>
+</ul>
+`;
