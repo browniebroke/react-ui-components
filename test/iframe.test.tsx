@@ -2,7 +2,7 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import { ThemeProvider } from 'styled-components'
 
-import { ResponsiveIframeWrapper, styledComponentsTheme } from '../'
+import { ResponsiveIframeWrapper, styledComponentsTheme } from '../src'
 
 describe('ResponsiveIframeWrapper component', () => {
   test('should render correctly', () => {

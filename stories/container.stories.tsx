@@ -2,7 +2,7 @@ import React from 'react'
 import { Story } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
 
-import { Container } from '../'
+import { Container } from '../src/'
 import { defaultTheme } from './themes'
 
 export default {

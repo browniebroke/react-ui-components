@@ -1,6 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { ExternalLink } from '../'
+
+import { ExternalLink } from '../src'
 
 describe('ExternalLink component', () => {
   test('should render correctly', () => {

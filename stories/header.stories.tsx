@@ -2,9 +2,9 @@ import React from 'react'
 import { Story } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
 
+import { Header, Navigation } from '../src/'
+import { ThemeProps } from '../src/types'
 import { defaultTheme, redTheme } from './themes'
-import { Header, Navigation } from '../'
-import { ThemeProps } from '../types'
 
 export default {
   title: 'Example/Header',

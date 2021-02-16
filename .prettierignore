@@ -1,6 +1,2 @@
 node_modules
 dist
-public
-.cache
-.vscode
-package.json

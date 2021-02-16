@@ -1,15 +1,15 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-
-import { Container, styledComponentsTheme } from '../'
 import { ThemeProvider } from 'styled-components'
 
-describe('Container component', () => {
-  test('should render correctly', () => {
+import { GlobalStyles, styledComponentsTheme } from '../src'
+
+describe('GlobalStyles component', () => {
+  test('should render correctly without props', () => {
     let tree = renderer
       .create(
         <ThemeProvider theme={styledComponentsTheme}>
-          <Container />
+          <GlobalStyles />
         </ThemeProvider>
       )
       .toJSON()
