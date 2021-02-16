@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalLink component should render correctly with a text node as child 1`] = `
+<a
+  aria-label="Home page"
+  href="/"
+  rel="noopener noreferrer"
+  target="_blank"
+  title="Home page"
+>
+  Home Page
+</a>
+`;
+
+exports[`ExternalLink component should render correctly with another component as child 1`] = `
+<a
+  aria-label="Home page"
+  href="/"
+  rel="noopener noreferrer"
+  target="_blank"
+  title="Home page"
+>
+  <div>
+    Custom thing
+  </div>
+</a>
+`;
+
+exports[`ExternalLink component should render correctly with no children 1`] = `
+<a
+  aria-label="Home page"
+  href="/"
+  rel="noopener noreferrer"
+  target="_blank"
+  title="Home page"
+/>
+`;

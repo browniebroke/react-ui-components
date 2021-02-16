@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row component should render correctly with alignItems prop 1`] = `
+<div
+  className="sc-kEjbxe fkhuZj"
+/>
+`;
+
+exports[`Row component should render correctly without props 1`] = `
+<div
+  className="sc-kEjbxe cECvak"
+/>
+`;

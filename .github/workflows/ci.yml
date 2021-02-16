@@ -2,24 +2,19 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - beta
   pull_request:
 
 jobs:
   lint:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        linter:
-          - eslint
-          - prettier
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.1.4
-
       - run: yarn
-      - run: yarn lint:${{ matrix.linter }}
+      - run: yarn lint
 
   storybook:
     runs-on: ubuntu-latest
@@ -53,7 +48,18 @@ jobs:
           node-version: ${{ matrix.node_version }}
 
       - run: yarn
-      - run: yarn test
+      - run: yarn test --ci --coverage --maxWorkers=2
+
+  # TODO: Enable when this is in main branch
+  #  size:
+  #    runs-on: ubuntu-latest
+  #    env:
+  #      CI_JOB_NUMBER: 1
+  #    steps:
+  #      - uses: actions/checkout@v1
+  #      - uses: andresz1/size-limit-action@v1
+  #        with:
+  #          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   publish:
     runs-on: ubuntu-latest

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component should render correctly with direction prop 1`] = `
+<ul
+  className="sc-pFZIQ fJlIWO"
+  direction="row"
+/>
+`;
+
+exports[`Navigation component should render correctly without props 1`] = `
+<ul
+  className="sc-pFZIQ iQpjJi"
+  direction="column"
+/>
+`;

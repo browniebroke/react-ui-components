@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Column component should render correctly with some props 1`] = `
+<div
+  className="sc-gsTCUz bDtEgY"
+/>
+`;
+
+exports[`Column component should render correctly without props 1`] = `
+<div
+  className="sc-gsTCUz bDtEgY"
+/>
+`;
