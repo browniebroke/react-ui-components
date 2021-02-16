@@ -1,10 +1,5 @@
-import React, { FC, ReactChildren } from 'react'
-
-interface ExternalLinkProps {
-  to: string
-  title: string
-  children?: ReactChildren
-}
+import React, { FC } from 'react'
+import { ExternalLinkProps } from './types'
 
 const ExternalLink: FC<ExternalLinkProps> = ({ children, to, title }) => (
   <a

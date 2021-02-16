@@ -118,6 +118,13 @@ interface ContentWrapperProps extends ThemeProps {
   footerHeight?: string
 }
 
+export interface ExternalLinkProps {
+  /** URL to link to */
+  to: string
+  /** Title for accessibility */
+  title: string
+}
+
 export interface NavigationProps {
   /** Flex direction of the container (default to column) */
   direction?: flexDirection
