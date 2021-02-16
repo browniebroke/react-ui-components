@@ -11,8 +11,7 @@ const ListItemStyle = styled.li<ListInlineProps>`
   margin-bottom: 0;
   display: inline-block;
   padding: 0
-    ${(props) =>
-      props.padding !== null ? props.padding : props.theme.spacings[1]};
+    ${(props) => (props.padding ? props.padding : props.theme.spacings[1])};
 `
 
 const ListInline: FC<ListInlineProps> = ({ children, padding }) => {

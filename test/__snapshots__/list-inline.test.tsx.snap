@@ -5,28 +5,28 @@ exports[`ListInline component should render correctly with children 1`] = `
   className="sc-iBPRYJ ljKKDo"
 >
   <li
-    className="sc-fubCfw hUayPB"
+    className="sc-fubCfw chHTAM"
   >
     <div>
       This
     </div>
   </li>
   <li
-    className="sc-fubCfw hUayPB"
+    className="sc-fubCfw chHTAM"
   >
     <div>
       is
     </div>
   </li>
   <li
-    className="sc-fubCfw hUayPB"
+    className="sc-fubCfw chHTAM"
   >
     <div>
       an
     </div>
   </li>
   <li
-    className="sc-fubCfw hUayPB"
+    className="sc-fubCfw chHTAM"
   >
     <div>
       example
@@ -46,21 +46,21 @@ exports[`ListInline component should render with custom padding 1`] = `
   className="sc-iBPRYJ ljKKDo"
 >
   <li
-    className="sc-fubCfw tKMDB"
+    className="sc-fubCfw chHTAM"
   >
     <div>
       This
     </div>
   </li>
   <li
-    className="sc-fubCfw tKMDB"
+    className="sc-fubCfw chHTAM"
   >
     <div>
       is
     </div>
   </li>
   <li
-    className="sc-fubCfw tKMDB"
+    className="sc-fubCfw chHTAM"
   >
     <div>
       fun
