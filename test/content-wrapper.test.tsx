@@ -1,27 +1,26 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-
-import { Row } from '../'
-import styledComponentsTheme from '../styled-components-theme'
 import { ThemeProvider } from 'styled-components'
 
-describe('Row component', () => {
+import { ContentWrapper, styledComponentsTheme } from '../src'
+
+describe('ContentWrapper component', () => {
   test('should render correctly without props', () => {
     let tree = renderer
       .create(
         <ThemeProvider theme={styledComponentsTheme}>
-          <Row />
+          <ContentWrapper />
         </ThemeProvider>
       )
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
-  test('should render correctly with alignItems prop', () => {
+  test('should render correctly with props', () => {
     let tree = renderer
       .create(
         <ThemeProvider theme={styledComponentsTheme}>
-          <Row alignItem="center" />
+          <ContentWrapper headerHeight="50px" footerHeight="200px" />
         </ThemeProvider>
       )
       .toJSON()

@@ -2,9 +2,9 @@ import React from 'react'
 import { Story } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
 
+import { ContentWrapper } from '../src/'
+import { ContentWrapperProps } from '../src/types'
 import { defaultTheme } from './themes'
-import { ContentWrapper } from '../'
-import { ContentWrapperProps } from '../types'
 
 export default {
   title: 'Example/ContentWrapper',

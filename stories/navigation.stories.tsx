@@ -2,9 +2,9 @@ import React from 'react'
 import { Story } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
 
-import { Navigation } from '../'
+import { Navigation } from '../src/'
+import { NavigationProps } from '../src/types'
 import { defaultTheme } from './themes'
-import { NavigationProps } from '../types'
 
 export default {
   title: 'Example/Navigation',

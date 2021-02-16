@@ -2,9 +2,9 @@ import React from 'react'
 import { Meta, Story } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
 
+import { Alert } from '../src'
+import { ColorName } from '../src/types'
 import { defaultTheme } from './themes'
-import { Alert } from '../'
-import { ColorName } from '../types'
 
 const meta: Meta = {
   title: 'Example/Alert',

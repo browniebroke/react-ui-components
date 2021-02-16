@@ -2,8 +2,8 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import renderer from 'react-test-renderer'
 
-import { Alert, styledComponentsTheme } from '../'
-import { ColorName } from '../types'
+import { Alert, styledComponentsTheme } from '../src'
+import { ColorName } from '../src/types'
 
 describe('Alert component', () => {
   const alertTypes: ColorName[] = ['success', 'info', 'warning', 'danger']

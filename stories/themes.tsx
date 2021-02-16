@@ -1,4 +1,4 @@
-import styledComponentsTheme from '../styled-components-theme'
+import { styledComponentsTheme } from '../src'
 
 export const defaultTheme = { ...styledComponentsTheme }
 

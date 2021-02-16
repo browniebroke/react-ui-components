@@ -2,7 +2,7 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import renderer from 'react-test-renderer'
 
-import { Header, styledComponentsTheme } from '../'
+import { Header, styledComponentsTheme } from '../src'
 
 describe('Header component', () => {
   test('should render correctly with children', () => {

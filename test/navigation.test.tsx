@@ -1,26 +1,26 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import { Col, styledComponentsTheme } from '../'
+import { Navigation, styledComponentsTheme } from '../src'
 import { ThemeProvider } from 'styled-components'
 
-describe('Column component', () => {
+describe('Navigation component', () => {
   test('should render correctly without props', () => {
     let tree = renderer
       .create(
         <ThemeProvider theme={styledComponentsTheme}>
-          <Col />
+          <Navigation />
         </ThemeProvider>
       )
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
-  test('should render correctly with some props', () => {
+  test('should render correctly with direction prop', () => {
     let tree = renderer
       .create(
         <ThemeProvider theme={styledComponentsTheme}>
-          <Col xsWidth="50%" smWidth="33%" mdWidth="25%" lgWidth="20%" />
+          <Navigation direction="row" />
         </ThemeProvider>
       )
       .toJSON()
