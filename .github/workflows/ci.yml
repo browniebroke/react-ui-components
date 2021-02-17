@@ -50,16 +50,6 @@ jobs:
       - run: yarn
       - run: yarn test --ci --coverage --maxWorkers=2
 
-  size:
-    runs-on: ubuntu-latest
-    env:
-      CI_JOB_NUMBER: 1
-    steps:
-      - uses: actions/checkout@v1
-      - uses: andresz1/size-limit-action@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
   publish:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' }}
@@ -67,7 +57,6 @@ jobs:
       - lint
       - storybook
       - test
-      - size
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.1.4
