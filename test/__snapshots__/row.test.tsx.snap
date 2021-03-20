@@ -6,6 +6,24 @@ exports[`Row component should render correctly with alignItems prop 1`] = `
 />
 `;
 
+exports[`Row component should render correctly with margin all sides prop 1`] = `
+<div
+  className="sc-kEjbxe jlFXBA"
+/>
+`;
+
+exports[`Row component should render correctly with margin each axis prop 1`] = `
+<div
+  className="sc-kEjbxe jFbaPr"
+/>
+`;
+
+exports[`Row component should render correctly with margin each sides props 1`] = `
+<div
+  className="sc-kEjbxe isSnRG"
+/>
+`;
+
 exports[`Row component should render correctly without props 1`] = `
 <div
   className="sc-kEjbxe cECvak"
