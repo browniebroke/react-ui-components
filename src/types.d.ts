@@ -66,13 +66,13 @@ export interface PaddingProps extends ThemeProps {
 }
 
 export interface MarginProps extends ThemeProps {
-  topMargin?: string
-  bottomMargin?: string
-  rightMargin?: string
-  leftMargin?: string
-  xMargin?: string
-  yMargin?: string
-  sideMargin?: string
+  topMargin?: SpacingValue
+  bottomMargin?: SpacingValue
+  rightMargin?: SpacingValue
+  leftMargin?: SpacingValue
+  xMargin?: SpacingValue
+  yMargin?: SpacingValue
+  sideMargin?: SpacingValue
 }
 
 export type SpacingComponentProps = PaddingProps & MarginProps
