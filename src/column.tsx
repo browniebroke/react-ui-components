@@ -6,7 +6,7 @@ import {
   genAlignSelf,
   genTextAlign,
 } from './utils'
-import { ThemeProps } from './types'
+import { PaddingProps, ResponsiveProps, ThemeProps } from './types'
 
 interface ColOptions extends ThemeProps {
   width?: string
@@ -14,9 +14,11 @@ interface ColOptions extends ThemeProps {
   smWidth?: string
   mdWidth?: string
   lgWidth?: string
+  alignSelf?: string
+  textAlign?: string
 }
 
-const Col = styled.div<ColOptions>`
+const Col = styled.div<ColOptions & ResponsiveProps & PaddingProps>`
   flex-grow: 1;
   width: ${(props) => (props.width ? props.width : '100%')};
   padding-left: ${(props) => props.theme.gutterWidth};

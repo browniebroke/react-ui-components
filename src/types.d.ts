@@ -56,13 +56,13 @@ export interface Theme {
 export type ThemeProps = BaseThemeProps<Theme>
 
 export interface PaddingProps extends ThemeProps {
-  topPadding?: string
-  bottomPadding?: string
-  rightPadding?: string
-  leftPadding?: string
-  xPadding?: string
-  yPadding?: string
-  sidePadding?: string
+  topPadding?: SpacingValue
+  bottomPadding?: SpacingValue
+  rightPadding?: SpacingValue
+  leftPadding?: SpacingValue
+  xPadding?: SpacingValue
+  yPadding?: SpacingValue
+  sidePadding?: SpacingValue
 }
 
 export interface MarginProps extends ThemeProps {
@@ -87,12 +87,11 @@ export interface MaxWidthProps extends ThemeProps {
 }
 
 export interface FlaxOrderProps extends ThemeProps {
-  Order?: string
-  xsOrder?: string
-  smOrder?: string
-  mdOrder?: string
-  lgOrder?: string
-  xlOrder?: string
+  xsOrder?: string | number
+  smOrder?: string | number
+  mdOrder?: string | number
+  lgOrder?: string | number
+  xlOrder?: string | number
 }
 
 type ResponsiveProps = MaxWidthProps | FlaxOrderProps

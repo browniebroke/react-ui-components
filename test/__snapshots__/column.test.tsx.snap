@@ -1,8 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Column component should render correctly with alignSelf 1`] = `
+<div
+  className="sc-gsTCUz kQWvMY"
+/>
+`;
+
+exports[`Column component should render correctly with each direction padding props 1`] = `
+<div
+  className="sc-gsTCUz bZRxDH"
+/>
+`;
+
+exports[`Column component should render correctly with each side padding props 1`] = `
+<div
+  className="sc-gsTCUz dlohkK"
+/>
+`;
+
+exports[`Column component should render correctly with global padding props 1`] = `
+<div
+  className="sc-gsTCUz YydhD"
+/>
+`;
+
+exports[`Column component should render correctly with max width 1`] = `
+<div
+  className="sc-gsTCUz hPbmJs"
+/>
+`;
+
+exports[`Column component should render correctly with order props 1`] = `
+<div
+  className="sc-gsTCUz hsZwGi"
+/>
+`;
+
 exports[`Column component should render correctly with some props 1`] = `
 <div
   className="sc-gsTCUz bDtEgY"
+/>
+`;
+
+exports[`Column component should render correctly with textAlign 1`] = `
+<div
+  className="sc-gsTCUz iwTBmD"
 />
 `;
 
