@@ -2,14 +2,14 @@
 
 exports[`Navigation component should render correctly with direction prop 1`] = `
 <ul
-  className="sc-pVTma fUqYRK"
+  className="sc-pNWdM gDltpG"
   direction="row"
 />
 `;
 
 exports[`Navigation component should render correctly without props 1`] = `
 <ul
-  className="sc-pVTma gGahWm"
+  className="sc-pNWdM cutyAy"
   direction="column"
 />
 `;
