@@ -1,5 +1,8 @@
 import {
+  AllSideSpacing,
   CssProps,
+  Direction,
+  DirectionSpacing,
   FlaxOrderProps,
   MarginProps,
   MaxWidthProps,
@@ -7,6 +10,8 @@ import {
   ReactCssProps,
   ReactCssPropsName,
   ResponsiveProps,
+  Side,
+  SideSpacing,
   SpacingComponentProps,
   SpacingType,
   SpacingValue,
@@ -16,7 +21,9 @@ import {
 const themeSpacing = (props: ThemeProps, value: SpacingValue) =>
   props.theme.spacings[value - 1]
 
-const capFirst = (value: string) => value[0].toUpperCase() + value.slice(1)
+function capFirst<InputString extends string>(value: InputString) {
+  return value[0].toUpperCase() + value.slice(1).toLowerCase()
+}
 
 /**
  * Map a CSS property to a React component property:
@@ -60,29 +67,30 @@ const genSpacingFromProps = (
   props: SpacingComponentProps,
   spacingKind: SpacingType
 ) => {
-  const capFirstSpacingKind = capFirst(spacingKind)
-  const sideDirections = [
+  const capFirstSpacingKind = capFirst(spacingKind) as Capitalize<SpacingType>
+  const sideDirections: Array<[Side, Direction]> = [
     ['top', 'y'],
     ['right', 'x'],
     ['bottom', 'y'],
     ['left', 'x'],
   ]
-  const spacingCss = sideDirections.map(([side, direction]) => {
-    const value =
-      // @ts-ignore
-      props[`${side}${capFirstSpacingKind}`] ??
-      // @ts-ignore
-      props[`${direction}${capFirstSpacingKind}`]
-    if (value === undefined) {
-      return ''
+  const spacingCss = sideDirections.map(
+    ([side, direction]: [Side, Direction]) => {
+      const sideSpacingKey: SideSpacing = `${side}${capFirstSpacingKind}`
+      const directionSpacingKey: DirectionSpacing = `${direction}${capFirstSpacingKind}`
+      const value = props[sideSpacingKey] ?? props[directionSpacingKey]
+      if (value === undefined) {
+        return ''
+      }
+      return `${spacingKind}-${side}: ${themeSpacing(props, value)};`
     }
-    return `${spacingKind}-${side}: ${themeSpacing(props, value)};`
-  })
-  // @ts-ignore
-  if (props[`side${capFirstSpacingKind}`] !== undefined) {
-    // @ts-ignore
-    const value = props[`side${capFirstSpacingKind}`]
-    spacingCss.push(`${spacingKind}: ${themeSpacing(props, value)};`)
+  )
+  const allSidesSpacingKey: AllSideSpacing = `side${capFirstSpacingKind}`
+  const allSidesSpacingValue = props[allSidesSpacingKey]
+  if (allSidesSpacingValue !== undefined) {
+    spacingCss.push(
+      `${spacingKind}: ${themeSpacing(props, allSidesSpacingValue)};`
+    )
   }
   return spacingCss
 }

@@ -23,7 +23,14 @@ export type ReactCssPropsName =
   | 'alignSelf'
   | 'justifyContent'
   | 'textAlign'
-export type flexDirection = 'row' | 'row-reverse' | 'column' | 'column-reverse'
+export type FlexDirection = 'row' | 'row-reverse' | 'column' | 'column-reverse'
+
+export type Side = 'top' | 'right' | 'bottom' | 'left'
+export type Direction = 'x' | 'y'
+
+export type SideSpacing = `${Side}${Capitalize<SpacingType>}`
+export type DirectionSpacing = `${Direction}${Capitalize<SpacingType>}`
+export type AllSideSpacing = `side${Capitalize<SpacingType>}`
 
 export interface Theme {
   colors: {
@@ -94,7 +101,7 @@ export interface FlaxOrderProps extends ThemeProps {
   xlOrder?: string | number
 }
 
-type ResponsiveProps = MaxWidthProps | FlaxOrderProps
+export type ResponsiveProps = MaxWidthProps | FlaxOrderProps
 
 export interface ReactCssProps extends ThemeProps {
   alignItem?: string
@@ -110,7 +117,7 @@ export interface AlertOptions extends ThemeProps {
   textAlign?: string
 }
 
-interface ContentWrapperProps extends ThemeProps {
+export interface ContentWrapperProps extends ThemeProps {
   /** Height of the site header (with CSS unit) */
   headerHeight?: string
   /** Height of the site footer (with CSS unit) */
@@ -126,7 +133,7 @@ export interface ExternalLinkProps {
 
 export interface NavigationProps {
   /** Flex direction of the container (default to column) */
-  direction?: flexDirection
+  direction?: FlexDirection
 }
 
 export interface ResponsiveIframeProps {
@@ -136,7 +143,7 @@ export interface ResponsiveIframeProps {
   yRatio: number
 }
 
-interface ListInlineProps {
+export interface ListInlineProps {
   /** Overrides horizontal padding between items inline */
   padding?: string | number
 }
