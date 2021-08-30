@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-import { getAlertBackgroundColor, getAlertTextColor } from './colors'
 import { AlertOptions } from './types'
+import { getAlertBackgroundColor, getAlertTextColor } from './colors'
 
 /**
  * Alert component
