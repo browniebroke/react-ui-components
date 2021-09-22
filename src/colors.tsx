@@ -12,9 +12,7 @@ const getColorDark = (
   colorName: ColorName | NavBarColor
 ) => {
   const colorValue = props.theme.colors[colorName]
-  return Color(colorValue)
-    .darken(0.2)
-    .hex()
+  return Color(colorValue).darken(0.2).hex()
 }
 
 export const getPrimaryColor = (props: ThemeProps) => getColor(props, 'primary')
