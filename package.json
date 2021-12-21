@@ -73,11 +73,11 @@
   "size-limit": [
     {
       "path": "dist/react-ui-components.cjs.production.min.js",
-      "limit": "11 KB"
+      "limit": "15 KB"
     },
     {
       "path": "dist/react-ui-components.esm.js",
-      "limit": "11 KB"
+      "limit": "15 KB"
     }
   ]
 }
