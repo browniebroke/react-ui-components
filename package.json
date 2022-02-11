@@ -40,7 +40,7 @@
     "gray-percentage": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.16.12",
+    "@babel/core": "7.17.2",
     "@size-limit/preset-small-lib": "7.0.8",
     "@storybook/addon-essentials": "6.4.18",
     "@storybook/addon-info": "5.3.21",
