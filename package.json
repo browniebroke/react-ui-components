@@ -40,13 +40,13 @@
     "gray-percentage": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.17.2",
+    "@babel/core": "7.17.5",
     "@size-limit/preset-small-lib": "7.0.8",
-    "@storybook/addon-essentials": "6.4.18",
+    "@storybook/addon-essentials": "6.4.19",
     "@storybook/addon-info": "5.3.21",
-    "@storybook/addon-links": "6.4.18",
-    "@storybook/addons": "6.4.18",
-    "@storybook/react": "6.4.18",
+    "@storybook/addon-links": "6.4.19",
+    "@storybook/addons": "6.4.19",
+    "@storybook/react": "6.4.19",
     "@types/react": "17.0.39",
     "@types/react-dom": "17.0.11",
     "@types/react-test-renderer": "17.0.1",
