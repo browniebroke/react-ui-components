@@ -3,10 +3,10 @@
 exports[`Header component should render correctly with children 1`] = `
 <header>
   <nav
-    className="sc-eCImPb exXWrE"
+    className="sc-eCYdqJ iIzueu"
   >
     <div
-      className="sc-dkPtRN sc-jRQBWg czsbBX dTBgUE"
+      className="sc-dkzDqf sc-jSMfEi iEAnbM gcjweL"
     >
       <div>
         This
@@ -25,10 +25,10 @@ exports[`Header component should render correctly with children 1`] = `
 exports[`Header component should render correctly without children 1`] = `
 <header>
   <nav
-    className="sc-eCImPb exXWrE"
+    className="sc-eCYdqJ iIzueu"
   >
     <div
-      className="sc-dkPtRN sc-jRQBWg czsbBX dTBgUE"
+      className="sc-dkzDqf sc-jSMfEi iEAnbM gcjweL"
     />
   </nav>
 </header>
