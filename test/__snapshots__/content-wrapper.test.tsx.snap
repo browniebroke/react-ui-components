@@ -2,12 +2,12 @@
 
 exports[`ContentWrapper component should render correctly with props 1`] = `
 <div
-  className="sc-hKwDye cOPMSI"
+  className="sc-hKMtZM jDaIIn"
 />
 `;
 
 exports[`ContentWrapper component should render correctly without props 1`] = `
 <div
-  className="sc-hKwDye gfSUpe"
+  className="sc-hKMtZM gcdxjt"
 />
 `;

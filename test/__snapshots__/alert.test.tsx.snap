@@ -2,7 +2,7 @@
 
 exports[`Alert component should render correctly with  1`] = `
 <div
-  className="sc-bdvvtL bRkShw"
+  className="sc-bczRLJ bwlUBz"
 >
   
    alert
@@ -11,7 +11,7 @@ exports[`Alert component should render correctly with  1`] = `
 
 exports[`Alert component should render correctly with center 1`] = `
 <div
-  className="sc-bdvvtL bRkShw"
+  className="sc-bczRLJ bwlUBz"
 >
   center
    alert
@@ -20,7 +20,7 @@ exports[`Alert component should render correctly with center 1`] = `
 
 exports[`Alert component should render correctly with danger 1`] = `
 <div
-  className="sc-bdvvtL caUzae"
+  className="sc-bczRLJ hpa-DAl"
 >
   This is a 
   danger
@@ -30,7 +30,7 @@ exports[`Alert component should render correctly with danger 1`] = `
 
 exports[`Alert component should render correctly with info 1`] = `
 <div
-  className="sc-bdvvtL bRkShw"
+  className="sc-bczRLJ bwlUBz"
 >
   This is a 
   info
@@ -40,7 +40,7 @@ exports[`Alert component should render correctly with info 1`] = `
 
 exports[`Alert component should render correctly with left 1`] = `
 <div
-  className="sc-bdvvtL fvJceI"
+  className="sc-bczRLJ kgfZuL"
 >
   left
    alert
@@ -49,7 +49,7 @@ exports[`Alert component should render correctly with left 1`] = `
 
 exports[`Alert component should render correctly with right 1`] = `
 <div
-  className="sc-bdvvtL dLrhcr"
+  className="sc-bczRLJ gDZRNI"
 >
   right
    alert
@@ -58,7 +58,7 @@ exports[`Alert component should render correctly with right 1`] = `
 
 exports[`Alert component should render correctly with success 1`] = `
 <div
-  className="sc-bdvvtL hsQKCq"
+  className="sc-bczRLJ dESsRB"
 >
   This is a 
   success
@@ -68,7 +68,7 @@ exports[`Alert component should render correctly with success 1`] = `
 
 exports[`Alert component should render correctly with warning 1`] = `
 <div
-  className="sc-bdvvtL cDMzCb"
+  className="sc-bczRLJ kPgrMU"
 >
   This is a 
   warning
