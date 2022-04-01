@@ -36,8 +36,8 @@
     "typography": ">=0.16"
   },
   "dependencies": {
-    "color": "^3.2.0",
-    "gray-percentage": "^2.0.0"
+    "color": "3.2.1",
+    "gray-percentage": "2.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.17.8",
