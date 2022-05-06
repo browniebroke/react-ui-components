@@ -48,7 +48,7 @@
     "@storybook/addons": "6.4.22",
     "@storybook/react": "6.4.22",
     "@types/react": "17.0.45",
-    "@types/react-dom": "17.0.16",
+    "@types/react-dom": "18.0.3",
     "@types/react-test-renderer": "17.0.2",
     "@types/styled-components": "5.1.25",
     "babel-jest": "28.1.0",
