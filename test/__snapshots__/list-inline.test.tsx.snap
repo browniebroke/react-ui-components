@@ -2,7 +2,7 @@
 
 exports[`ListInline component should render correctly with children 1`] = `
 <ul
-  className="sc-iBkjds fcZjmq"
+  className="sc-iBkjds cDBRng"
 >
   <li
     className="sc-ftvSup ghczXM"
@@ -37,13 +37,13 @@ exports[`ListInline component should render correctly with children 1`] = `
 
 exports[`ListInline component should render correctly without children 1`] = `
 <ul
-  className="sc-iBkjds fcZjmq"
+  className="sc-iBkjds cDBRng"
 />
 `;
 
 exports[`ListInline component should render with custom padding 1`] = `
 <ul
-  className="sc-iBkjds fcZjmq"
+  className="sc-iBkjds cDBRng"
 >
   <li
     className="sc-ftvSup ghczXM"
