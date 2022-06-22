@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Container from './container'
 import {
@@ -6,7 +6,7 @@ import {
   getNavbarTextColor,
   getNavbarTextColorDark,
 } from './colors'
-import { ThemeProps } from './types'
+import { HeaderProp, ThemeProps } from './types'
 
 const SiteNavBar = styled.nav<ThemeProps>`
   color: ${getNavbarTextColor};
@@ -35,7 +35,7 @@ const HeaderContainer = styled(Container)<ThemeProps>`
   padding: ${(props) => props.theme.spacings[1]} 0;
 `
 
-const Header: FC = ({ children }) => (
+const Header = ({ children }: HeaderProp) => (
   <header>
     <SiteNavBar>
       <HeaderContainer>{children}</HeaderContainer>

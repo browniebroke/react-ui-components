@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { ListInlineProps } from './types'
 
@@ -15,7 +15,7 @@ const ListItemStyle = styled.li<ListInlineProps>`
     ${(props) => (props.padding ? props.padding : props.theme.spacings[1])};
 `
 
-const ListInline: FC<ListInlineProps> = ({ children, padding }) => {
+const ListInline = ({ children, padding }: ListInlineProps) => {
   return (
     <ListInlineStyle>
       {React.Children.map(children, (child, i) => (

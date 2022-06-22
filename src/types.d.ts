@@ -1,4 +1,5 @@
 import { ThemeProps as BaseThemeProps } from 'styled-components'
+import { ReactNode } from 'react'
 
 export type ColorName =
   | 'primary'
@@ -51,6 +52,10 @@ export interface Theme {
     lg: string
     xl: string
   }
+}
+
+type AcceptsChildren = {
+  children?: ReactNode
 }
 
 export type ThemeProps = BaseThemeProps<Theme>
@@ -117,14 +122,14 @@ interface ContentWrapperProps extends ThemeProps {
   footerHeight?: string
 }
 
-export interface ExternalLinkProps {
+export interface ExternalLinkProps extends AcceptsChildren {
   /** URL to link to */
   to: string
   /** Title for accessibility */
   title: string
 }
 
-export interface NavigationProps {
+export interface NavigationProps extends AcceptsChildren {
   /** Flex direction of the container (default to column) */
   direction?: flexDirection
 }
@@ -136,7 +141,9 @@ export interface ResponsiveIframeProps {
   yRatio: number
 }
 
-interface ListInlineProps {
+export interface HeaderProp extends AcceptsChildren {}
+
+export interface ListInlineProps extends AcceptsChildren {
   /** Overrides horizontal padding between items inline */
   padding?: string | number
 }
