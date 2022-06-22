@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { NavigationProps } from './types'
 
@@ -18,10 +18,7 @@ const NavItem = styled.li`
   }
 `
 
-const Navigation: FC<NavigationProps> = ({
-  children,
-  direction = 'column',
-}) => (
+const Navigation = ({ children, direction = 'column' }: NavigationProps) => (
   <NavigationList direction={direction}>
     {React.Children.map(children, (child) => (
       <NavItem>{child}</NavItem>

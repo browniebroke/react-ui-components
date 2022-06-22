@@ -1,7 +1,7 @@
-import React, { FC } from 'react'
+import React from 'react'
 import { ExternalLinkProps } from './types'
 
-const ExternalLink: FC<ExternalLinkProps> = ({ children, to, title }) => (
+const ExternalLink = ({ children, to, title }: ExternalLinkProps) => (
   <a
     href={to}
     title={title}
