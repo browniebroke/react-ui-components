@@ -4,7 +4,6 @@ exports[`Alert component should render correctly with  1`] = `
 <div
   className="sc-bczRLJ bwlUBz"
 >
-  
    alert
 </div>
 `;
