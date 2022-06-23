@@ -11,6 +11,3 @@ export { default as Navigation } from './navigation'
 export { default as Row } from './row'
 
 export { default as styledComponentsTheme } from './styled-components-theme'
-export { default as typography } from './typography'
-
-export { typographyTheme } from './typography'
