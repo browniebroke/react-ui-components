@@ -1,4 +1,3 @@
-import typography from './typography'
 import { Theme } from './types'
 
 const styledComponentsTheme: Theme = {
@@ -13,13 +12,7 @@ const styledComponentsTheme: Theme = {
     navbarText: '#ffffff',
   },
   gutterWidth: '15px',
-  spacings: [
-    typography.rhythm(1 / 6),
-    typography.rhythm(1 / 3),
-    typography.rhythm(2 / 3),
-    typography.rhythm(1),
-    typography.rhythm(2),
-  ],
+  spacings: ['0.25rem', '0.5rem', '1rem', '1.5rem', '3rem'],
   gridBreakpoints: {
     xs: '0',
     sm: '576px',

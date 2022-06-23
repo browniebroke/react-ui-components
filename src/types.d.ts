@@ -38,7 +38,7 @@ export interface Theme {
     navbarText: string
   }
   gutterWidth: string
-  spacings: number[]
+  spacings: string[]
   gridBreakpoints: {
     xs: string
     sm: string
