@@ -39,7 +39,7 @@
     "gray-percentage": "2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.19.1",
+    "@babel/core": "7.19.3",
     "@size-limit/preset-small-lib": "8.1.0",
     "@storybook/addon-essentials": "6.5.12",
     "@storybook/addon-info": "5.3.21",
@@ -60,7 +60,7 @@
     "styled-components": "5.3.5",
     "tsdx": "0.14.1",
     "tslib": "2.4.0",
-    "typescript": "4.8.3"
+    "typescript": "4.8.4"
   },
   "prettier": {
     "trailingComma": "es5",
