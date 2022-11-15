@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ExternalLink component should merge the rel attributes 1`] = `
+<a
+  aria-label="Blah"
+  href="/blah/"
+  rel="noopener noreferrer me"
+  target="_blank"
+  title="Blah"
+>
+  Blah
+</a>
+`;
+
 exports[`ExternalLink component should render correctly with a text node as child 1`] = `
 <a
   aria-label="Home page"

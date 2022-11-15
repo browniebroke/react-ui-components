@@ -23,6 +23,7 @@
     "test": "tsdx test --passWithNoTests",
     "watch": "tsdx test --watchAll",
     "lint": "tsdx lint",
+    "format": "prettier --write .",
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
