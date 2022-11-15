@@ -33,4 +33,15 @@ describe('ExternalLink component', () => {
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
+
+  test('should merge the rel attributes', () => {
+    let tree = renderer
+      .create(
+        <ExternalLink title="Blah" to="/blah/" rel="me">
+          Blah
+        </ExternalLink>
+      )
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })

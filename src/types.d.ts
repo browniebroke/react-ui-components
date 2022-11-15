@@ -127,6 +127,8 @@ export interface ExternalLinkProps extends AcceptsChildren {
   to: string
   /** Title for accessibility */
   title: string
+  /** optional rel attribute */
+  rel?: string
 }
 
 export interface NavigationProps extends AcceptsChildren {
