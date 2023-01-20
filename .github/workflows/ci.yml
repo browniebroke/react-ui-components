@@ -24,11 +24,12 @@ jobs:
       - run: npm run lint
 
   storybook:
-    uses: browniebroke/github-actions/.github/workflows/netlify-deploy.yml@v1
+    uses: browniebroke/github-actions/.github/workflows/netlify-deploy.yml@feat/custom-node-version
     with:
       netlify_site_id: '8cd37925-c674-4e4d-90b6-10f583f97d99'
       publish_dir: 'storybook-static'
       build_script: 'npm run build-storybook'
+      node_version: '16.19.0'
     secrets:
       netlify_auth_token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
@@ -46,8 +47,8 @@ jobs:
       fail-fast: false
       matrix:
         node_version:
-          - 14
           - 16
+          - 18
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
