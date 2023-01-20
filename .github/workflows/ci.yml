@@ -74,7 +74,7 @@ jobs:
           node-version-file: '.nvmrc'
       - run: npm i
       - name: Run Semantic release
-        run: npx semantic-release@19
+        run: npx semantic-release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
