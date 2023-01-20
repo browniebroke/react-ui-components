@@ -1,8 +1,8 @@
 # react-ui-components
 
 <p align="center">
-  <a href="https://github.com/browniebroke/react-ui-components/actions?query=workflow%3ACI">
-    <img alt="CI status" src="https://img.shields.io/github/workflow/status/browniebroke/react-ui-components/CI/main?label=CI&logo=github&logoColor=white&style=flat-square">
+  <a href="https://github.com/browniebroke/react-ui-components/actions/workflows/ci.yml">
+    <img alt="CI status" src="https://img.shields.io/github/actions/workflow/status/browniebroke/react-ui-components/ci.yml?branch=main&label=CI&logo=github&style=flat-square">
   </a>
   <a href="https://app.netlify.com/sites/browniebroke-ui/deploys">
     <img src="https://img.shields.io/netlify/8cd37925-c674-4e4d-90b6-10f583f97d99?label=Netlify&logo=netlify&logoColor=white&style=flat-square" alt="Deployed on Netlify"/>
