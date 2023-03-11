@@ -63,7 +63,7 @@
     "tsdx": "0.14.1",
     "tslib": "2.5.0",
     "typescript": "4.9.5",
-    "webpack": "5.76.0"
+    "webpack": "5.76.1"
   },
   "prettier": {
     "trailingComma": "es5",
