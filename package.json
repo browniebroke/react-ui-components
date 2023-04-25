@@ -21,6 +21,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
+    "update-snapshots": "tsdx test -u",
     "watch": "tsdx test --watchAll",
     "lint": "tsdx lint",
     "format": "prettier --write .",

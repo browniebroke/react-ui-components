@@ -15,7 +15,7 @@ jobs:
 
       - run: npm i -g npm@latest
       - run: npm i
-      - run: npm run test -u
+      - run: npm run update-snapshots
 
       - name: Commit & push changes
         run: |
