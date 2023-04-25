@@ -2,30 +2,30 @@
 
 exports[`Row component should render correctly with alignItems prop 1`] = `
 <div
-  className="sc-kFuwaP ffZqYb"
+  className="sc-kuWgmH jgBrNO"
 />
 `;
 
 exports[`Row component should render correctly with margin all sides prop 1`] = `
 <div
-  className="sc-kFuwaP gvwdnw"
+  className="sc-kuWgmH gANFVl"
 />
 `;
 
 exports[`Row component should render correctly with margin each axis prop 1`] = `
 <div
-  className="sc-kFuwaP hWNrAr"
+  className="sc-kuWgmH cCXTyu"
 />
 `;
 
 exports[`Row component should render correctly with margin each sides props 1`] = `
 <div
-  className="sc-kFuwaP dsHZsi"
+  className="sc-kuWgmH MOOFH"
 />
 `;
 
 exports[`Row component should render correctly without props 1`] = `
 <div
-  className="sc-kFuwaP dYeYdA"
+  className="sc-kuWgmH hKAnEt"
 />
 `;
