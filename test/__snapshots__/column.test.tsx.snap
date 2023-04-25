@@ -2,54 +2,54 @@
 
 exports[`Column component should render correctly with alignSelf 1`] = `
 <div
-  className="sc-gueYoa gICQBd"
+  className="sc-gTRrQi hsLpZa"
 />
 `;
 
 exports[`Column component should render correctly with each direction padding props 1`] = `
 <div
-  className="sc-gueYoa iZEzia"
+  className="sc-gTRrQi ehkxmJ"
 />
 `;
 
 exports[`Column component should render correctly with each side padding props 1`] = `
 <div
-  className="sc-gueYoa icQYwH"
+  className="sc-gTRrQi gEKUmA"
 />
 `;
 
 exports[`Column component should render correctly with global padding props 1`] = `
 <div
-  className="sc-gueYoa ePvkiC"
+  className="sc-gTRrQi dqDpAx"
 />
 `;
 
 exports[`Column component should render correctly with max width 1`] = `
 <div
-  className="sc-gueYoa gDZlTx"
+  className="sc-gTRrQi sEFaO"
 />
 `;
 
 exports[`Column component should render correctly with order props 1`] = `
 <div
-  className="sc-gueYoa ibrxvz"
+  className="sc-gTRrQi cCOzcM"
 />
 `;
 
 exports[`Column component should render correctly with some props 1`] = `
 <div
-  className="sc-gueYoa dAlLuV"
+  className="sc-gTRrQi dnxPBW"
 />
 `;
 
 exports[`Column component should render correctly with textAlign 1`] = `
 <div
-  className="sc-gueYoa gRCGBC"
+  className="sc-gTRrQi cZjeEZ"
 />
 `;
 
 exports[`Column component should render correctly without props 1`] = `
 <div
-  className="sc-gueYoa dAlLuV"
+  className="sc-gTRrQi dnxPBW"
 />
 `;
