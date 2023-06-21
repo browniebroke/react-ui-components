@@ -1,5 +1,8 @@
 # react-ui-components
 
+> **Warning**
+> DEPRECATED: I wrote this for my own needs a while back, but I now stopped using it. I wrote [here](https://browniebroke.com/blog/migrate-my-site-design-system-to-chakra-ui-with-chatgpt/) about why I no longer use this library and how I migrated to [Chakra UI](https://chakra-ui.com/).
+
 <p align="center">
   <a href="https://github.com/browniebroke/react-ui-components/actions/workflows/ci.yml">
     <img alt="CI status" src="https://img.shields.io/github/actions/workflow/status/browniebroke/react-ui-components/ci.yml?branch=main&label=CI&logo=github&style=flat-square">
